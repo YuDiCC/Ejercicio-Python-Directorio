@@ -1,0 +1,16 @@
+print("Directorio SKILLS FOR WOMEN IN TECH")
+print()
+for i in range(1, 10):
+ print()
+ print("ESCRIBE TU NOMBRE")
+ nombre=input()
+ print("Tu nombre es " + nombre)
+ edad = int(input("ESCRIBE TU EDAD: "))
+ if edad <=18:
+  print("Eres menor de edad")
+ else:
+  print("Eres mayor de Edad")
+ print("TEMAS QUE TE GUSTAN")
+ temas=input()
+ print("te gusta: " + temas)
+ print()
